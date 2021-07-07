@@ -2,7 +2,7 @@
         text-align: center;
         margin: auto;
         padding: .6em;
-        background-image: linear-gradient(to right, white 20%, lightblue 40%, lightgreen 90%);
+        background-image: linear-gradient(to right, blue 20%, lightblue 40%, lightgreen 90%);
         background-clip: text;
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -23,7 +23,7 @@
         color: black;
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding: .3em;
+        padding: 1em;
         font-size: 1em;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
