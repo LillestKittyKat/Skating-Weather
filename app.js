@@ -26,5 +26,7 @@ function setPos(position) {
 
 function json_process(data) {
     console.log(data)
-    document.write(data.list[0]);
+        // document.write(data.list[0]);
+    json_content = document.getElementsByClassName('content')
+    json_content.innerHTML = "data"
 }
