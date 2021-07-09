@@ -6,28 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">s
+    <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
 </head>
 
 <body>
     <div class="bg">
         <div id="header">Skating Weather</div>
+        <div id="for">Click Update Below</div>
         <div class="button" onclick="updateClicked()">
             Update
         </div>
-        <div class="row">
-            <div class="columnbox"> a</div>
-            <div class="columnbox">a </div>
-            <div class="columnbox">a </div>
+
+        <div class="row" id="row0">
+            <div class="column" id="day1">Day 1</div>
+            <div class="datacolumn" id="data0">Data</div>
         </div>
-        <div class="row">
-            <div id="content1">This is where the JSON will appear</div>
-            <div id="content2">This is where the JSON will appear</div>
-            <div id="alerts">Alerts appear here.</div>
+        <div class="row" id="row1">
+            <div class="column" id="day2">Day 2</div>
+            <div class="datacolumn" id="data1">Data</div>
+        </div>
+        <div class="row" id="row2">
+            <div class="column" id="day3">Day 3</div>
+            <div class="datacolumn" id="data2">Data</div>
+        </div>
+        <div class="row" id="row3">
+            <div class="column" id="day4">Day 4</div>
+            <div class="datacolumn" id="data3">Data</div>
+        </div>
+        <div class="row" id="row4">
+            <div class="column" id="day5">Day 5</div>
+            <div class="datacolumn" id="data4">Data</div>
         </div>
 
-        <!-- <p>Test text</p> -->
     </div>
 </body>
 
